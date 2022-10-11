@@ -9,9 +9,9 @@ int read_encodeur(int pinNumber,int encodeur_cnt,int encodeur_min_time){
     while (value == 1){
       value = digitalRead(pinNumber);    
       time_since_detected++;  
-      // if (time_since_detected > valeur max temps mort){
+      if (time_since_detected > valeur max temps mort){
 
-      // }
+      }
     }
     if (time_since_detected > encodeur_min_time){
       encodeur_cnt +=1;

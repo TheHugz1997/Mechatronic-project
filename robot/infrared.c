@@ -1,3 +1,4 @@
+
 void initialize_infrared(int pinNumber,int Mode) {
   // pinMode (IN_A0, INPUT);
   pinMode(pinNumber, Mode);
